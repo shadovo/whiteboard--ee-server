@@ -20,6 +20,10 @@ public final class WebSocketMessageTypeConsts {
 	public static final String WHITEBOARD_NEW = "whiteboard-new";
 	public static final String WHITEBOARD_GET = "whiteboard-get";
 	public static final String WHITEBOARD_GET_ALL = "whiteboard-get-all";
+
+	// User
+	public static final String USER_CONNECT_TO_WHITEBOARD = "user-connect-to-whiteboard";
+	public static final String USER_DISCONNECT_FROM_WHITEBOARD = "user-disconect-from-whiteboard";
 	
 	private WebSocketMessageTypeConsts() {
 		throw new AssertionError();
